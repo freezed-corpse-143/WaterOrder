@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#553b3a3a">
+
+    <TextView
+        android:id="@+id/goodname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/price"
+        android:textColor="#333"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/goodprice"
+        app:layout_constraintTop_toBottomOf="@+id/goodprice" />
+
+    <TextView
+        android:id="@+id/goodprice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/name"
+        android:textColor="#333"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/goodsupplier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/supplier"
+        android:textColor="#333"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/goodname"
+        tools:layout_editor_absoluteX="195dp" />
+
+    <TextView
+        android:id="@+id/goodsurplus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/surplus"
+        android:textColor="#333"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/goodsupplier"
+        tools:layout_editor_absoluteX="226dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/goodParam"
+        android:textColor="#333"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="206dp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Cancel"
+        app:layout_constraintTop_toBottomOf="@+id/goodsurplus"
+        tools:layout_editor_absoluteX="181dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apartment">
+        <item>信园</item>
+        <item>诚园</item>
+        <item>橘园</item>
+        <item>梅园</item>
+        <item>毅园</item>
+    </string-array>
+</resources>
